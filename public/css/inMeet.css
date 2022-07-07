@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #c4c3ca;
+  background-color: #1f2029;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  text-decoration: none;
+  color: #c4c3ca;
+}
+
+/*------------------------------------------------*/
+/* Host */
+/*------------------------------------------------*/
+
+.container {
+  padding: 0 2.5%;
+}
+
+.row {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-1 {
+  flex-basis: 65%;
+}
+
+.col-2 {
+  flex-basis: 33%;
+}
+
+.host {
+  width: 90%;
+  border-radius: 15px;
+  margin-left: 50px;
+}
+
+/*------------------------------------------------*/
+/* Buttons */
+/*------------------------------------------------*/
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.controls img {
+  width: 40px;
+  margin: 20px 10px;
+  cursor: pointer;
+  transition: transform 0.4s;
+}
+
+.controls .call-icon {
+  width: 70px;
+}
+
+.controls img:hover {
+  transform: translateY(-10px);
+}
+
+/*------------------------------------------------*/
+/* Right Column Users */
+/*------------------------------------------------*/
+
+.joined {
+  background-color: #182842;
+  border-radius: 15px;
+  padding: 30px 40px 50px;
+  color: #fff;
+}
+
+.joined div {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+}
+.joined img {
+  width: 100%;
+  border-radius: 10px;
+}
