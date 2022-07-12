@@ -10,6 +10,7 @@ app.set("view engine", "ejs");
 // Middleware
 app.use(express.static("public"));
 app.use(express.urlencoded({ extended: false }));
+
 //video confercing
 io.on("connection", (socket) => {
   socket.on("join-room", (roomId, userId) => {
@@ -19,6 +20,7 @@ io.on("connection", (socket) => {
     socket.once("disconnect", () => {
       socket.to(roomId).emit("user-disconnected", userId);
     });
+
     // chat event
     socket.on("chat", (data) => {
       socket.to(roomId).emit("chat", data);

@@ -10,4 +10,13 @@ function makeid(length) {
 }
 
 const button = document.getElementById("mylink");
-button.href = "/meeting/" + makeid(10);
+id = makeid(10);
+base_url = "/meeting/";
+button.href = base_url + id;
+
+const form = document.querySelector(".join");
+const code = document.querySelector("#code");
+form.addEventListener("submit", (event) => {
+  event.preventDefault();
+  window.location.assign(base_url + code.value);
+});

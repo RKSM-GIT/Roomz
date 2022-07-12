@@ -74,7 +74,7 @@ router.get("/meeting", checkAuthenticated, (req, res) => {
 });
 
 router.get("/meeting/:id", checkAuthenticated, (req, res) => {
-  res.render("inMeet", { roomId: req.params.id });
+  res.render("inMeet", { roomId: req.params.id, user: req.user });
 });
 
 //! Auth routes
