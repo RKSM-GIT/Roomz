@@ -1,4 +1,4 @@
-# Roomz
+# Roomz - Video Conference App
 
 Roomz is a New, Easy to use and Featurefull Video Calling App For All! It is made using Node.js and uses tech like Socket.io and PeerJS for video call, chat and an interactive whiteboard.
 
