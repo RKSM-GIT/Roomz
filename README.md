@@ -1,6 +1,6 @@
 # Roomz - Video Conference App
-
-Roomz is a New, Easy to use and Featurefull Video Calling App For All! It is made using Node.js and uses tech like Socket.io and PeerJS for video call, chat and an interactive whiteboard.
+Roomz is a new, user-friendly, and feature-rich video calling app for everyone .
+It is created with Node.js and makes use of Socket.io and PeerJS for video conferencing, chat, and an interactive whiteboard. 
 
   - Create new Video conference and share it's Room ID.
   - Use Room ID to join meetings fast and quick.
@@ -41,9 +41,11 @@ $ peerjs --port 8001
 
 ![Landing Page](https://imgur.com/B5q2la5.jpg)
 
-This is the first page you'll see when you open the website. Here you can signup, login or see the features and testimonials of the website. 
-Here the 'Join or Create a Room Now' page requires a valid logged in user. If you try to open this without logging in, you'll be directed to the login page.
-After you've logged in the nav bar will show you, your username.
+When you first access the website, you will see this page.
+You can register, log in, or view the website's features and user reviews here.
+Here, a valid logged-in user can access the "Join or Create a Room Now" page.
+You will be taken to the login page if you attempt to open this without logging in.
+Your username will be displayed in the navigation bar after you sign in. 
 
 ### Login/Signup
 
